@@ -28,7 +28,7 @@ let y = 250;
 
 setInterval(function(){ 
 
-    if(direction === 'west'){
+    if(direction === 'west'){   // This is where the error is, Uncaught ReferenceError: direction is not defined at index.js:31:5
         x = x - 1
     }
     if(direction === 'north'){
